@@ -1,0 +1,18 @@
+{
+    "name": "mmqfilho/simpleDotEnv",
+    "type": "library",
+    "description": "Get .env file and put variables in $_ENV",
+    "keywords": ["environment",".env", "_ENV"],
+    "homepage": "https://github.com/mmqfilho/simpleDotEnv",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Marcos Menezes",
+            "email": "mmqfilho@gmail.com",
+            "role": "1.0"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}
