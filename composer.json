@@ -1,5 +1,5 @@
 {
-    "name": "mmqfilho/simple-dot-env",
+    "name": "mmqfilho/simpledotenv",
     "type": "library",
     "description": "Get .env file and put variables in $_ENV",
     "keywords": ["environment",".env", "_ENV"],
