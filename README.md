@@ -9,14 +9,19 @@ Author: `Marcos Menezes <mmqfilho@gmail.com>`
 
 include the file and set the namespace
 ```
-include_once 'src/environment.php';
-use Mmqfilho\SimpleDotEnv\Environment;
+include_once 'src/Simpledotenv.php';
+or use autoload composer
+include_once YOUR_VENDOR_DIR . '/autoload.php' ;
+
+use Mmqfilho\SimpleDotEnv\SimpleDotEnv as Env;
 ```
 
 Create object 
 ```
-new Environment();
+new Env('PATH/TO/.ENV_FILE');   
 ```
+Only path, do not put filename.
+
 
 Create and/or edit .env file
 ```
