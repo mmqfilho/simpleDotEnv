@@ -1,8 +1,8 @@
 <?php
 
-namespace Mmqfilho\SimpleDotEnv;
+namespace Mmqfilho\Simpledotenv;
 
-Class Environment
+Class Simpledotenv
 {
 	/**
 	 * Constructor
